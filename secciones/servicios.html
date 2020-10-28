@@ -3,12 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../estilos.css">
     <title>Servicios</title>
 </head>
 
 <body>
-    <h1><a href="../index.html">Laura Alt</a></h1>
+
+    <a href="../index.html">
+        <img src="../imagenes/memascaracat.gif" alt="gif de Laura Alt con marañas de ideas en la cabeza" >
+    </a>
+
     <h2> <span>Servicios</span> </h2>
+
     <section>
         <article>
             <h2>Esto puedo ofrecerte</h2>
@@ -16,19 +22,57 @@
                     sapiente sit ametiste quisquam excepturi. Et expedita eos quidem optio dicta a
                     ccusantium nobis totam magnam. ipsum dolorelit. Totam sapiente iste quisquam excepturi
                     consectetur adipisicing . Et expedita eos quidem optio
-                    dicta accusantium nobis totam magnam. Ad aspernatur ullam quo, assumenda fuga dicta!Ad aspernatur ullam
+                    dicta accusantium nobis totam magnam. Ad aspernatur ullam quo, assumenda fuga dicta!Ad aspernatur
+                    ullam
                     quo,assumenda fuga dicta!</em> </p>
         </article>
     </section>
+
+    <video src="../multimedia/video lalaland.mp4" controls loop></video>
+
     <nav>
         <ul>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="clientesfelices.html">Clientes Felices</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="clientesfelices.html">Clientes Felices</a></li>
         </ul>
     </nav>
-        <h5><a href="portfolio.html">Volver al Portfolio</a></h5>
-        <h6><a href="../index.html#contacto">Hablemos¡</a></h6>
+
+    <section>
+        <!-- P/ envío de archivos por formulario :
+            <form action="#" Method="POST" enctype="multipart/form-data"> -->
+
+        <h2>Formulario 2</h2>
+        <form action="#">
+
+            <fieldset>
+                <legend> Seleccione sector</legend>
+                <input type="radio" name="sector" value="campo" id="campo" checked>
+                <label for="campo">Campo</label>
+                <input type="radio" name="sector" value="platea" id="platea">
+                <label for="platea">Platea</label>
+            </fieldset>
+
+            <fieldset>
+                <div><input type="file"></div>
+                <div><input type="checkbox" name="acepta" value="si" id="acepto" required>
+                <label for="acepto">Acepto los términos y condiciones.</label></div>
+                <div><input type="submit" value="Enviar formulario"></div>
+            </fieldset>
+
+        </form>
+
+    </section>
+
+    <h5><a href="portfolio.html">Volver al Portfolio</a></h5>
+
+    <a href="../index.html#contacto">
+        <img src="../imagenes/tenor.gif" alt="perro azul hablando">
+    </a>
+
+    <audio src="../multimedia/Lucky_Dragons_i_love_death_to_you.mp3"controls loop></audio>
+    <img src="../imagenes/criminalperroukulele.gif" alt="perro tocando el ukelele">
+
 </body>
 
 </html>
