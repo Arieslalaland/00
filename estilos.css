@@ -1,6 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lobster&family=Roboto+Mono:wght@200;600&family=Turret+Road&display=swap');
+
+html { scroll-behavior: smooth; }
+
 body {
-    font-family: system-ui;
-    background: #97c1ec;
+    font-family: 'Roboto Mono';
+    background: #BE93C5;
+    background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5); 
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); 
     color: rgb(243, 223, 223);
     text-align:left;
   }
+
+h1 { font-family:'Lobster';
+
+  }
+
+h2,h3,h4.h5 { font-family:'Turret Road';}
+
+h2 { text-align: center;}
+
+.letter-spacing { letter-spacing: 5px; }
+
+.word-spacing{ word-spacing: 5px; }
+
+.decorated { text-decoration: overline; }
+
+.no-sub { text-decoration: none; }
+
+.tresdé {
+  font-family: 'Fredericka The Great';
+  color: #7BC6CC;
+  text-shadow: 4px 2px #FBDA61, -4px 2px #BE93C5;
+  font-size: 10mm;
+  letter-spacing: 3px;
+  margin-left: 30mm;
+}
+
+.link { color: blanchedalmond; }
+
+.uno:visited { color: inherit }
+
+nav ul li {
+  color: black;
+}
+
+.container {
+  text-align: center;
+}
+
+.container-dos {
+  text-align: right;
+  margin-right: 30mm;
+}
+
+
+/* index */
+/*  SECTION FORMULARIO 1 */
+
+.fondo-distinto{
+  text-align:center;
+  background-color: #7BC6CC;
+  background-image: linear-gradient(45deg,#7BC6CC 0%,  #BE93C5 80%);
+}
+
+/* FOTOS */
+.imagen:hover {
+  filter: saturate(180%);
+  transition:all .5s ease-in-out;
+}
+
+
+/* servicios */
+#centrar {
+  margin-bottom: 40px;
+  height: 70px;
+}
+
+.space {
+  margin-left: 200px;
+  font-size: 5mm;
+  white-space: pre;
+}
+
+#herencia {
+  color: #FBDA61;
+  text-align: center;
+}
+
+/* clientes felices */
+#derecha {
+  text-align: right;
+  margin-bottom: 70px;
+  height: 100px;
+  border: solid #7BC6CC
+}
+
+
+.d {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #BE93C5  50%, rgba(253,168,29,1) 92%, rgba(252,207,69,1) 97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.centrar-video { margin-left: 100mm; }
+
+/* proyectos */
+#indent {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+/* portfolio */
+.hover:hover {
+  text-align: right;
+  margin-right: 20px;
+color:  #7BC6CC;
+}
