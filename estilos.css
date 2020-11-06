@@ -11,8 +11,8 @@ body {
     text-align:left;
   }
 
-h1 { font-family:'Lobster';
-
+h1 { 
+  font-family:'Lobster';
   }
 
 h2,h3,h4.h5 { font-family:'Turret Road';}
@@ -36,23 +36,25 @@ h2 { text-align: center;}
   margin-left: 30mm;
 }
 
-.link { color: blanchedalmond; }
+.link { 
+  color: blanchedalmond; 
+  padding: 10px;
+}
 
 .uno:visited { color: inherit }
 
 nav ul li {
   color: black;
+  display: inline;
 }
 
-.container {
-  text-align: center;
-}
+
+.container { text-align: center;}
 
 .container-dos {
   text-align: right;
   margin-right: 30mm;
 }
-
 
 /* index */
 /*  SECTION FORMULARIO 1 */
@@ -62,6 +64,8 @@ nav ul li {
   background-color: #7BC6CC;
   background-image: linear-gradient(45deg,#7BC6CC 0%,  #BE93C5 80%);
 }
+
+.fondo-parrafos { background-color:  #BE93C5;}
 
 /* FOTOS */
 .imagen:hover {
@@ -85,6 +89,42 @@ nav ul li {
 #herencia {
   color: #FBDA61;
   text-align: center;
+  
+}
+.herencia {
+  text-align: center;
+  width: 300px;
+  border: solid 1px;
+  margin-top: 100px;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  bottom: 150px;
+}
+
+.herencia h2 {
+  border: solid 2px;
+  width: 200px;
+  margin-left: 50px ;
+}
+
+
+.opacidad-seccion {
+  width: 100%;
+  background: url('imagenes/perroencalzones.gif');
+  padding-bottom: 10px;
+}
+
+.opacidad-seccion p {
+  color: black;
+  font-size: xx-large;
+  padding: 10px;
+  text-align: center;
+}
+
+.mover {
+  position: relative;
+  bottom: 150px;  
 }
 
 /* clientes felices */
@@ -95,10 +135,16 @@ nav ul li {
   border: solid #7BC6CC
 }
 
+.a-un-lado {
+position: relative;
+padding-left: 60%;
+
+}
 
 .d {
   text-align: center;
-  font-size: 50px;
+  margin-right: 500px;
+  font-size: 100px;
   font-weight: 800;
   background: linear-gradient(90deg, #BE93C5  50%, rgba(253,168,29,1) 92%, rgba(252,207,69,1) 97%);
   -webkit-background-clip: text;
@@ -113,9 +159,30 @@ nav ul li {
   text-indent: 50px;
 }
 
+
 /* portfolio */
 .hover:hover {
   text-align: right;
   margin-right: 20px;
 color:  #7BC6CC;
+}
+/* FOOTER */
+
+.footer {
+  display: inline;
+}
+
+.muevanse-ustedes {
+  margin-left: 100px;
+}
+.rrss {
+  margin-left: 350px;
+}
+
+.rrss img {
+  width: 200px;
+  position: relative;
+  bottom: 150px;
+
+
 }
