@@ -1,1 +1,1 @@
-# 00cursocoder
+# 00 is a simple practice.
