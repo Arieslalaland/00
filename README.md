@@ -1,1 +1,1 @@
-# 00 is a simple practice.
+# 00 it's a simple practice.
